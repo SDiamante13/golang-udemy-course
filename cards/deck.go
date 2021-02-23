@@ -25,6 +25,7 @@ func newDeck() deck {
 	for _, suit := range cardSuits {
 		for _, value := range cardValues {
 			cards = append(cards, fmt.Sprintf("%s of %s", value, suit))
+
 		}
 	}
 	return cards
